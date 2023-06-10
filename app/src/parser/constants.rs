@@ -15,13 +15,13 @@
 ********************************************************************************/
 
 //network ids
-pub const NETWORK_ID_MAINNET: u32 = 1;
-pub const NETWORK_ID_FUJI: u32 = 5;
+pub const NETWORK_ID_MAINNET: u32 = 14;
+pub const NETWORK_ID_FUJI: u32 = 114;
 pub const NETWORK_ID_LOCAL: u32 = 12345;
 
 // hrp
-pub const HRP_MAINNET: &str = "avax";
-pub const HRP_TESTNET: &str = "fuji";
+pub const HRP_MAINNET: &str = "flare";
+pub const HRP_TESTNET: &str = "costwo";
 pub const HRP_LOCAL: &str = "local";
 
 pub const TRANSFER_TX: u32 = 0;
